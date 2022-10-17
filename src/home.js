@@ -1,4 +1,4 @@
-import food from './food.jpeg';
+import thinker from './thinker.jpg';
 
 export default function loadHome() {
     const content = document.getElementById('content');
@@ -8,10 +8,12 @@ export default function loadHome() {
     header.appendChild(headerNode);
 
     const image = document.createElement('img');
-    image.setAttribute("src", food);
+    image.setAttribute("src", thinker);
 
     const text = document.createElement('p');
-    const copyNode = document.createTextNode('Lorem Ipsum. Sic Transit Gloria.');
+    const copyNode = document.createTextNode('Come for the coffee. \
+    Stay for the deep thoughts! We have all kinds of delicious grub \
+    to stimulate your mind and whet your appetite!');
     text.appendChild(copyNode);
 
 

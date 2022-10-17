@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Greconian;
+    src: url(Greconian.ttf);
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Greconian, 'Times New Roman', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+#nav {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items:  flex-end;
+    gap: 15px;
+    background: url('./clouds.jpg');
+    margin: 0;
+    height: 10%;
+    box-shadow: 0px 5px 5px white;
+}
+
+#nav button {
+    cursor: pointer;
+    background-color: burlywood;
+    height: 50px;
+    width: 125px;
+    font-size: larger;
+    font-weight: bolder;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: none;
+}
+
+#content {
+    background: url('./background.jpg') repeat;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content h1 {
+    color: #e6ebea;
+}
+
+#content img {
+    border: solid 2px brown;
+    box-shadow: 5px 5px 5px brown;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+#content p {
+    color: #e6ebea;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: darkred;
+    box-shadow: 5px 5px 5px brown;
+    width: 600px;
+    text-align: center;
+}
