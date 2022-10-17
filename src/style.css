@@ -13,9 +13,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+
 }
+
 #nav {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items:  flex-end;
@@ -41,13 +44,22 @@ body {
 #content {
     background: url('./background.jpg') repeat;
     height: 90%;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 2;
 }
 
 #content h1 {
     color: #e6ebea;
+    margin-bottom: 20px;
+}
+
+#content h2 {
+    color: darkred;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 #content img {
@@ -56,6 +68,8 @@ body {
     width: 25%;
     height: 50%;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 #content p {
@@ -66,4 +80,11 @@ body {
     box-shadow: 5px 5px 5px brown;
     width: 600px;
     text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#address {
+    width: 200px !important;
 }
